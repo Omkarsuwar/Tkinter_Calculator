@@ -4,6 +4,7 @@ from tkinter import messagebox
 # Initialize the main window
 root = tk.Tk()
 root.title("🧮 Smart Calculator")
+root.geometry("420x600")
 root.configure(bg="#1e1e1e")
 root.resizable(False, False)
 
